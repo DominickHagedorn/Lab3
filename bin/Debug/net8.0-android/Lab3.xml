@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lab3</name>
+    </assembly>
+    <members>
+        <member name="M:Lab3.Airport.#ctor(System.String,System.String,System.DateTime,System.Int32)">
+            creates a new airport with given qualities
+        </member>
+        <member name="M:Lab3.Airport.#ctor">
+            creates the default airport, which is appleton
+        </member>
+        <member name="M:Lab3.Airport.Equals(System.Object)">
+            checks if two airports are equal
+        </member>
+        <member name="M:Lab3.Airport.Copy(Lab3.Airport)">
+            copys the data from one airport to another
+        </member>
+        <member name="M:Lab3.Airport.ToString">
+            String representation of an airport
+        </member>
+        <member name="M:Lab3.BusinessLogic.AddAirport(System.String,System.String,System.DateTime,System.Int32)">
+            create a new airport inside the data base with given qualities
+        </member>
+        <member name="M:Lab3.BusinessLogic.DeleteAirport(System.String)">
+            deletes a given airport based on an id
+        </member>
+        <member name="M:Lab3.BusinessLogic.EditAirport(System.String,System.String,System.DateTime,System.Int32)">
+            updates an airport with new given properties
+        </member>
+        <member name="M:Lab3.BusinessLogic.FindAirport(System.String)">
+            returns the airport with the given id
+        </member>
+        <member name="M:Lab3.BusinessLogic.GetAirports">
+            returns the entire list of airports
+        </member>
+        <member name="M:Lab3.Database.DeleteAirport(System.String)">
+            deletes an airport with a given id
+        </member>
+        <member name="M:Lab3.Database.InsertAirport(Lab3.Airport)">
+            adds an airport to the collection
+        </member>
+        <member name="M:Lab3.Database.SelectAirport(System.String)">
+            finds and returns an airport based on its id
+        </member>
+        <member name="M:Lab3.Database.UpdateAirport(Lab3.Airport)">
+            update the properties inside of a given airport
+            
+        </member>
+    </members>
+</doc>
